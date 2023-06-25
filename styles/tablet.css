@@ -1,0 +1,50 @@
+@media screen and (max-width: 1024px) {
+
+    /* _____________header tablet _____________ */
+   .header__label {
+       display: flex;
+       padding: 10px;
+       justify-content: right;
+       margin-right: 10px;
+       position: relative;
+       font-size: 1.4rem;
+   }
+
+   .header__links{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .header__nav {
+       display: none;
+       position: fixed;
+       top: 80px;
+       width: 100%;
+       background-color: var(--accent-color);
+       margin: 0 auto;
+       text-align: center;
+       flex-direction: column;
+       animation: slideInFromTop 0.5s ease-in-out;
+       z-index: 1;
+       z-index: 2000;
+   }
+   .header__hamburger:checked ~  .header__nav {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .header__container {
+       /* background-color: var(--accent-color);*/
+       height: 80px;
+   } 
+
+   .nav__link:hover {
+       color: var(--darker-accent-color);
+   }
+
+    /* _____________contact tablet _____________ */
+
+   iframe {
+       min-width: 355px;
+   }
+}
