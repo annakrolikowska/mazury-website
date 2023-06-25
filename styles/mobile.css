@@ -81,6 +81,10 @@
         padding: 0;
         width: 100%;
     }
+ 
+    .equipment__glide {
+        padding: 10px 20px 0;
+    }
     
     .equipment__list {
         display: none;
