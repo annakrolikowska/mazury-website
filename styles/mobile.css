@@ -1,0 +1,179 @@
+@media screen and (max-width: 767px) {
+        
+    .container {
+        flex-direction: column;
+    }
+
+    /* _____________header mobile _____________ */
+    h1 {
+        font-size: 1.5rem;
+        z-index: 2;
+        position: relative;
+    }
+
+    .header__logo {
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+
+    .header__text {
+        width: 90%;
+    }
+
+
+     /* _____________ welcome tel _____________*/
+     .welcome {
+        padding: 20px;
+    }
+
+    .welcome__text {
+        padding: 20px 0 0 0;
+        max-width: 100%;
+    }
+
+    .welcome__text-header {
+        font-size: 1.4rem;
+    }
+
+    .welcome__img {
+        padding: 10px 0 20px;
+    }
+    /* _____________photos mobile _____________ */
+    .photos {
+        display: none;
+    }
+
+    /* _____________about mobile_____________*/
+    .about {
+        padding: 40px 20px;
+    }
+
+    .about__article {
+        gap: 24px ;
+        text-align: center;
+        font-size: 1.7rem;
+        padding: 0px;
+    }
+
+    .about p{
+        font-size: 1rem;;
+    }
+
+    /*  _____________atractions mobile _____________*/
+    .atractions {
+        padding: 20px;
+    }
+    .atractions__item {
+        padding: 30px;
+    }
+
+    /*  _____________equipment mobile  _____________ */
+
+    .equipment__header {
+        padding-top: 20px;
+    }
+ 
+    .equipment__container {
+        padding: 10px;
+    }
+    
+    .equipment__text {
+        padding: 0;
+        width: 100%;
+    }
+    
+    .equipment__list {
+        display: none;
+    }
+
+    .equipment__list li {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .glide__arrow--left {
+        left: -1em!important;
+    }
+    .glide__arrow--right {
+        right: -1em!important;
+    }
+
+     /* _____________  price mobile_____________ */
+
+    .price {
+        padding: 20px;
+     }
+    .table {
+        font-size: 1rem;
+        padding: 20px 0;
+    }
+
+    .price__description li {
+        font-size: 0.8rem;
+    }
+
+    .price p {
+        font-size: 1rem;
+    }
+    
+    /*  _____________ information  _____________  */
+
+    .information__collapsible  {
+        width: auto;
+    }
+
+    .information__content {
+        padding: 0;
+    }
+
+    .information__container {
+        padding: 0 20px;
+    }
+
+    .information h4 {
+        font-size: 1rem;
+    }
+    .information li {
+        font-size: 0.9rem;
+        margin-left: 12px;
+    }
+
+    /* _____________ contact mobile_____________ */
+
+    .contact {    
+        background-position: center;
+        padding: 40px 20px;
+    }
+
+    .contact__container {
+        flex-direction: column-reverse;
+    }
+    
+    iframe {
+       min-width: 90%;
+    }
+
+    .contact__info {
+        padding: 0px;
+    }
+
+    .contact h4{
+        font-size: 1.3rem;
+        margin-top: 20px;
+    }
+
+    .button {
+        min-width: 90%;
+    }
+
+    .contact__links a {
+        font-size: 1.1rem;
+    }
+
+    /* _____________  footer mobile_____________ */
+
+    .footer__container {
+        align-items: start;
+        padding: 0 40px 40px;
+    }
+}
